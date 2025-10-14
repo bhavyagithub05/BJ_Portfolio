@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../assets/bhavya_photo1.jpg'
+import photo from '../assets/Bhavya_photo1.jpg'
 import logo from '../assets/logo.js'
 import '../index.css'
 import { motion } from 'motion/react'
