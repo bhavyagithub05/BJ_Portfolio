@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+/* .grid-box{
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+} */
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    40% {
+        width: 11ch; /* Type forward */
+    }
+    50% {
+        width: 11ch; /* Pause for 1s */
+    }
+    60% {
+        width: 0; /* Backspace */
+    }
+    70% {
+        width: 0; /* Pause for 1s */
+    }
+    85% {
+        width: 11ch; /* Type forward again */
+    }
+    100% {
+        width: 11ch; /* Final stop */
+    }
+}
+
+@keyframes blink {
+    0%, 100% { 
+        border-right-color: #102A43; 
+    }
+    50% { 
+        border-right-color: transparent; 
+    }
+}
+
+.blink {
+    border-right: 2px solid #102A43;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    display: inline-block;
+    font-family: monospace; /* Better for steps animation */
+    animation: 
+        typing 10s steps(11, end) forwards, /* steps for typewriter effect */
+        blink 0.8s infinite;
+}
