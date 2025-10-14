@@ -47,7 +47,7 @@ const Projects = () => {
               <div className='flex flex-row items-center justify-center py-3'>
                 <div className='flex flex-row gap-3 justify-center items-center'>
                   <a 
-                    href="https://bhavyagithub05.github.io/Grand_AI/" 
+                    href="https://github.com/bhavyagithub05/Grand_AI" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className='transition-all hover:scale-110 duration-150 ease-in-out text-lg'
@@ -55,7 +55,7 @@ const Projects = () => {
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                   <a 
-                    href="https://github.com/bhavyagithub05/Grand_AI" 
+                    href="https://bhavyagithub05.github.io/Grand_AI/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className='transition-all hover:scale-110 duration-150 ease-in-out text-lg'
