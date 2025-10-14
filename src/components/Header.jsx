@@ -11,7 +11,7 @@ const Header = () => {
       transition={{duration:1}}
       whileInView={{opacity:1, y:50}}
       viewport={{once:true}}
-      className='flex flex-col justify-center items-center lg:flex-row text-[#102A43] px-10 pb-20 gap-20 my-30'>
+      className='flex flex-col justify-center items-center lg:flex-row text-[#102A43] px-10 pb-20 gap-20 mt-15 lg:my-50'>
         <motion.div
         initial={{opacity:0, y:-20}}
         animate={{opacity:1, y:0}}
@@ -32,7 +32,7 @@ const Header = () => {
           <button className='border-2 border-[#102A43] font-semibold text-[14px] text-[#102A43] py-2 w-40 self-center gap-1 rounded-[6px] hover:bg-[#0d2133] hover:text-white hover:cursor-pointer shadow-2xl hover:scale-[1.2] transition-[1s]'>Download Resume</button>
         </motion.div>
       </motion.div>
-      <div className='border-b border-black/30 w-full max-w-7xl mx-auto'></div>
+      <div className='border-b border-black/30 w-full max-w-4xl mx-auto'></div>
     </>
   )
 }

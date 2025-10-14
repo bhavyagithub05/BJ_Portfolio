@@ -19,7 +19,7 @@ const Skills = () => {
         transition={{duration:1}}
         whileInView={{opacity:1, x:0}}
         viewport={{once:true}}
-        className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 lg:gap-20   justify-items-center rounded-2xl font-semibold text-[#102A43] py-10 px-4'>
+        className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 md:gap-10 lg:gap-20 justify-items-center rounded-2xl font-semibold text-[#102A43] py-10 px-4'>
           <motion.div
           initial={{opacity:0, x:-20}}
       animate={{opacity:1, x:0}}
