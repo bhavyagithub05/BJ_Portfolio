@@ -163,12 +163,15 @@ const Projects = () => {
             <div className='flex flex-col gap-4 p-6'>
               <h3 className='text-xl font-semibold'>Imagify</h3>
               <p className='text-sm leading-relaxed'>
-                A simple and responsive currency converter built with React and TailwindCSS. Features include real-time exchange rate fetching, dynamic currency selection, and instant conversion results.
+                A creative and responsive AI image generator built with React and MERN stack. Features include text-to-image conversion, image gallery, and cloud-based processing using modern AI APIs.
               </p>
               <div className='flex flex-row flex-wrap gap-2'>
                 <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>React</span>
-                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>TailwindCSS</span>
-                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>CurrencyConverter API</span>
+                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>TailwindCss</span>
+                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>NodeJS</span>
+                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>ExpressJS</span>
+                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>Mongodb</span>
+                <span className='bg-white px-3 py-1 rounded-full text-xs font-medium'>ClipDrop API</span>
               </div>
             </div>
           </motion.div>
