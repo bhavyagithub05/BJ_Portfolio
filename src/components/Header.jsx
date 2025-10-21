@@ -3,6 +3,8 @@ import photo from '../assets/Bhavya_photo1.jpg'
 import logo from '../assets/logo.js'
 import '../index.css'
 import { motion } from 'motion/react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
   const handleDownloadResume = () => {
     // File should be in public folder
@@ -40,7 +42,7 @@ const Header = () => {
         transition={{delay:0.2, duration:0.8}}
         className='flex flex-col gap-3'>
           <img src={photo} className='size-50 lg:size-70 rounded-[50%] border-2 border-[#102A43]'/>
-          <button onClick={handleDownloadResume} className='border-2 border-[#102A43] font-semibold text-[14px] text-[#102A43] py-2 w-40 self-center gap-1 rounded-[6px] hover:bg-[#0d2133] hover:text-white hover:cursor-pointer shadow-2xl hover:scale-[1.2] transition-[1s]'>Download Resume</button>
+          <button onClick={handleDownloadResume} className='border-2 border-[#102A43] font-semibold text-[14px] text-[#102A43] py-2 w-40 self-center gap-1 rounded-[6px] hover:bg-[#0d2133] hover:text-white hover:cursor-pointer shadow-2xl hover:scale-[1.2] transition-[1s]'><FontAwesomeIcon icon={faFilePdf} /> Download Resume</button>
         </motion.div>
       </motion.div>
       <div className='border-b border-black/30 w-full max-w-4xl mx-auto'></div>

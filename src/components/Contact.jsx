@@ -14,20 +14,20 @@ const Contact = () => {
       </motion.div>
       <div className='flex flex-col gap-3 py-3 px-2 justify-center items-center content-center self-center text-[15px]'>
         <motion.div
-        initial={{opacity:0.2, x:100}}
+        initial={{opacity:0.2, x:-100}}
         transition={{duration:1}}
         whileInView={{opacity:1, x:0}}
         viewport={{once:true}}
         
         >Vatika,Jaipur-302029</motion.div>
         <motion.div
-        initial={{opacity:0.2, x:150}}
+        initial={{opacity:0.2, x:-150}}
         transition={{duration:1}}
         whileInView={{opacity:1, x:0}}
         viewport={{once:true}}
         >+91-7878383814</motion.div>
         <motion.div
-        initial={{opacity:0.2, x:200}}
+        initial={{opacity:0.2, x:-200}}
         transition={{duration:1}}
         whileInView={{opacity:1, x:0}}
         viewport={{once:true}}
